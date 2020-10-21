@@ -1,0 +1,14 @@
+{
+    "apps": [
+        {
+            "name": "udemy",
+            "script": "main.js",
+            "instances": "1",
+            "exec_mode": "cluster",
+            "cwd": "/var/scripts//huma-test/ariel-udmey/dist/",
+            "env": {
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}
